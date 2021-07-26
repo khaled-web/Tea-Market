@@ -1,0 +1,100 @@
+Take Breake Take Tea - Project Structure:-
+===========================================
+
+Nav-Bar
+.........
+**Regarding...nav-button
+span.nav-btn#nav-btn > icon 
+
+**Regarding...nav-bar
+nav.nav-bar.showNav#nav-bar > div.navbar-header>span.nav-closer#nav-closer
+                            > ul.nav-items> 4*li>a.nav-link
+
+                                                   
+............................................................................
+Header
+......
+
+header.header> {
+ div.banner> (h2 > h1) + a.btn.banner-btn ) +
+ div.content-divider{seperation line} 
+}
+
+............................................................................
+
+Skills
+......
+
+section.skills clearfix>{
+ 4*article.skill> (span.skill-icon{icon} + h4.skill-title + p.skill-text)
+}
+............................................................................
+
+About
+.......
+
+section>div.section-center clearfix>{
+article.about-img>div.about-picture-continer>img.about-picture +
+article.about-info>div.section-title>(h3 + h2) + p.about-text*2 + a.btn
+}
+............................................................................
+
+Products
+.......
+
+section.product-center.clearfix>{
+article.product-info> div.section-title(h3+h2) + p.product-text + a.btn
+article.product-inventory.clearfix> div.product>(img.product-img + h4.product-title + h4.product-price)*3
+                                                        
+}
+
+............................................................................
+
+services
+.......
+
+section.services>{
+div.section-title.services-title> h3 + h2
+div.section-center.clearfix> 3 * article.service-card>
+                             div.service-img-container> (img.service-img + span.service-icon>icon.fa-fw)
+                             div.service-info> h4 + p + a.btn.service-btn
+}
+
+
+............................................................................
+
+Contact
+.........
+
+section.contact >{
+  div.section-center.clearfix >
+     article.contact-info > 3 * div.contact-item > (h4.contact-title> span.contact-icon > icon) + h4.contact-text
+     article.contact-form> h3 + form > (div.form-group > input.form-control *2 + textArea.form-control) + button.sumbit-btn.btn
+}
+
+
+...........................................................................
+
+form-submission
+................
+
+we can store the date by using free service (formspree):-
+       * just regestering inside web-site
+       * creat new form insert :- name of project, the email that you want to send to
+       * you can copy..<form action="https://formspree.io/f/xvovykjk" method="POST"> from the code to your project.
+       * https://teamarket-cairo.netlify.app/index.html
+............................................................................
+
+Footer
+.........
+
+footer.footer> div.section-center> div.social-icons> 3*(a.soial-icon>icon) + (h4.footer-text>&copy; + span.footer-span + span)
+                                                   
+............................................................................
+
+My thinking regading project adding the following point:-
+01. client's opinion
+02. name of the project
+03. favicon
+04.
+
